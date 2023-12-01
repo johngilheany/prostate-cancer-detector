@@ -1,4 +1,9 @@
 matplotlib
 openslide
 pandas
-
+pickle
+os
+tensorflow.keras.models 
+tensorflow
+io
+PIL
