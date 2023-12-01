@@ -8,7 +8,7 @@ import tensorflow as tf
 import io
 from PIL import Image
 
-model = keras.models.load_model('models/model1_checkpoint.keras')
+model = keras.models.load_model('res50_model_ft.pth')
 
 if 'image' not in st.session_state:
     st.session_state['image'] = '00a7fb880dc12c5de82df39b30533da9.tiff'
