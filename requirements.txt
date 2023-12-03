@@ -12,5 +12,5 @@ torchvision
 tensorflow
 wget
 
-
+img_classification
 
