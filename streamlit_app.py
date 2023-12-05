@@ -6,8 +6,8 @@ import streamlit as st
 
 Image.MAX_IMAGE_PIXELS = 933120000
 
-# device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-device = torch.device('cpu')
+device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+# device = torch.device('cpu')
 
 # set title of app
 st.title('Prostate Cancer Detector')
@@ -19,7 +19,7 @@ file_up = st.file_uploader("Upload an image", type = ["png", 'jpg', 'tiff'])
 
 def predict(image):
     # Load ResNet model
-    model = torch.load('model.pth')
+    model = torch.load('model.pth', map_location = torch.device('cpu'))
     model.eval()
 
     # load the image, pre-process it, and make predictions
