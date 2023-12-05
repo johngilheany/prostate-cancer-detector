@@ -1,15 +1,3 @@
-matplotlib
-pandas
-pickle
-os
-tensorflow.keras.models 
-tensorflow
-io
 PIL
-torch
 torchvision
-tensorflow
-wget
-
-img_classification
-
+torch
