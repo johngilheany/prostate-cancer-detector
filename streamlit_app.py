@@ -6,7 +6,8 @@ import streamlit as st
 
 Image.MAX_IMAGE_PIXELS = 933120000
 
-device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+# device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+device = torch.device('cpu')
 
 # set title of app
 st.title('Prostate Cancer Detector')
