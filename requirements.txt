@@ -1,5 +1,4 @@
 matplotlib
-openslide
 pandas
 pickle
 os

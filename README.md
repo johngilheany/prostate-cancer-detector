@@ -1,2 +1,2 @@
-# prostate-cancer-detector
-Detects presence of prostate cancer in a whole slide image and highlights cancerous regions, if any
+# Prostate Cancer Detector
+Detects whether or given tissue sample contains prostate cancer or not.
